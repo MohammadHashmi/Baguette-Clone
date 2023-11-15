@@ -11,7 +11,7 @@ body {
   margin: 0;
 }
 
-#nav1 {
+nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -60,16 +60,14 @@ li:hover {
   color: white;
 }
 
-h1 {
-  color: black;
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 5px 0;
 }
 
-.hidden {
-  visibility: hidden;
+#menu-icon {
+  display: none;
+  cursor: pointer;
 }
-
-.sticky{
-  position: fixed;
-  top: 0;
-}
-

@@ -5,27 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <nav id="nav1">
-    <img src="newlogo.png" alt="star trek coffee logo" id="logo">
-    <ul id="titles">
-      <li>Menu</li>
-      <li>Locations</li>
-      <li>About</li>
-      <li>Rewards</li>
-      <li>Online Ordering</li>
-      <li>Own A Cafe</li>
-    </ul>
-  </nav>
-  <div id="center-text">
-    <h1><span class="auto-type"></span></h1>
-  </div>
+  <header>
+
+    <nav class="nav">
+      <img src="newlogo.png" alt="bakery logo" id="logo">
+      <ul id="titles">
+        <li>Menu</li>
+        <li>Locations</li>
+        <li>About</li>
+        <li>Rewards</li>
+        <li>Online Ordering</li>
+        <li>Own A Cafe</li>
+      </ul>
+    </nav>
+
+    <div id="center-text">
+      <h1><span class="auto-type"></span></h1>
+    </div>
+    
+  </header>
   
 
+  
+
+  <!--Link to my js file and the typed.js library-->
+  <script src='index.js'></script>
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-  <script src='../javascript/script.js'></script>
+
+  <!--Cycles through the selected words in a typing animation-->
   <script>
     let typed = new Typed(".auto-type", {
     strings: ["Cakes", "Pastries", "Bread", "Pretzels"],

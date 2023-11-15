@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-  <nav>
+  <nav id="nav1">
     <img src="newlogo.png" alt="star trek coffee logo" id="logo">
     <ul id="titles">
       <li>Menu</li>
@@ -16,12 +17,23 @@
       <li>Rewards</li>
       <li>Online Ordering</li>
       <li>Own A Cafe</li>
-
     </ul>
   </nav>
+  <div id="center-text">
+    <h1><span class="auto-type"></span></h1>
+  </div>
   
 
-
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <script src='../javascript/script.js'></script>
+  <script>
+    let typed = new Typed(".auto-type", {
+    strings: ["Cakes", "Pastries", "Bread", "Pretzels"],
+    typeSpeed: 150,
+    backSpeed: 90,
+    loop: true
+})
+  </script>
+
 </body>
 </html>

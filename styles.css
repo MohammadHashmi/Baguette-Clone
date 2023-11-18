@@ -117,3 +117,33 @@ header {
   }
 }
 
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.slide {
+  display: none;
+}
+
+.slider-img {
+  width: 100%;
+}
+
+.prev, .next {
+  position: relative;
+  top: 50%;
+  width: auto;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+h1 {
+  color: #000;
+}
+
